@@ -5,6 +5,8 @@ let squares = document.querySelector(".squares")
 let button =document.querySelector("#newColorButton")
 document.querySelector("#RGB").innerHTML
 let correctAnswer =""
+let results = document.querySelector("#results")
+let solutionColor = Math.floor(Math.random() * 3)
 
 function randomNumber() {
     return Math.floor(Math.random() * 255);
@@ -24,4 +26,31 @@ button.addEventListener('click', function(event) {
     squareTwo.style.backgroundColor = arrayOfColors[1];
     squareThree.style.backgroundColor = arrayOfColors[2];
     correctAnswer = solutionColor
+});
+
+squareOne.addEventListener('click', function(event) {
+    // let answer = Math.floor(Math.random() * 255)
+    if(solutionColor == 0) {
+        results.innerText = "You are right!"
+    }else{
+        results.innerText ="Try again"
+    }
+});
+
+squareTwo.addEventListener('click', function(event) {
+    // let answer = Math.floor(Math.random() * 255)
+    if(solutionColor == 1) {
+        results.innerText = "You are right!"
+    }else{
+        results.innerText ="Try again"
+    }
+});
+
+squareThree.addEventListener('click', function(event) {
+    // let answer = Math.floor(Math.random() * 255)
+    if(solutionColor == 2) {
+        results.innerText = "You are right!"
+    }else{
+        results.innerText ="Try again"
+    }
 });
