@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: #F0F8FF;
+    font-family: 'Potta One', cursive;
+    text-transform: uppercase;
+    /* -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: black; */
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  h1{
+    padding: 20px 0;
+    line-height: 1.1;
+    font-weight: normal;
+    text-align: center;
+    
+  }
+
+.squares {
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    vertical-align: middle;
+    margin: 5px;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #888888;
+  }
+
+#stripe {
+	background: white;
+  height: 30px;  
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Potta One', cursive;
+  text-align: right;
+}
+
+button:hover {
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}

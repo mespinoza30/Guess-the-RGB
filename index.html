@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Guess the RGB!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script defer src="app.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+    </style>
+
+    <div>
+        <h1 class="rainbow-text">
+            Guess the
+            <br>
+            <div>RGB</div>
+            <div id="RGB"></div>
+            Color!
+        </h1>
+    </div>
+    <div>
+      <h5 class="rainbow-text">A game about testing your RGB knowledge</h5>
+    </div>
+
+    <div id="stripe">
+        <div>
+         <button id="newColorButton">New Colors</button>
+        </div>
+    </div>
+    
+    <div>
+        <div onclick="selectedColor(1)" class="squares" id="squareOne"></div>
+        <div onclick="selectedColor(2)" class="squares" id="squareTwo"></div>
+        <div onclick="selectedColor(3)" class="squares" id="squareThree"></div>
+    </div>
+
+    <div class="rainbow-text">
+          <p>Hint: First number(s) for Red, Second number(s) for Green, 
+            Third number(s) for Blue.
+          </p>
+        </h5>
+    </div>
+    
+  </body>
+</html>
