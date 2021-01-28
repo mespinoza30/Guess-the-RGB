@@ -54,3 +54,8 @@ button:hover {
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
   color: transparent;
 }
+#results {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Potta One', cursive;
+}
