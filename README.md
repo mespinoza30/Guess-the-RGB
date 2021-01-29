@@ -8,28 +8,53 @@ What motivated me to make this game was that it seemed challenging enough to tes
 
 ---
 ### Screenshots
-screen captures of your app
+![Screenshot 1](./Screenshot1.png)
 
+![Screenshot 2](./Screenshot2.png)
 ---
 ### User Stories & Wireframes
 The planning materials used to build this app.
 * High-level user stories.
-* image files of wireframes
+1. Player hits 'New Colors' button
+2. RGB numbers are displayed as well as 3 different colors in the boxes
+3. Player has to guess which is the correct RGB color based on the RGB numbers being displayed
+4. If player guesses correct, then 'You are right!' will be displayed
+5. If player guesses incorrect, then 'Try Again' will de displayed.
+6. When player presses 'New Colors' it will change the RGB value and the colors displayed in the boxes.
 
-![wireframe 1](./assets/Game Concept.jpg)
 
-![wireframe 2](./assets/wireframe-example-1.png)
+![wireframe 1](./GameConcept.jpg)
 
----
 ### Technologies & Code Snippets
-* list of technologies
-* screen captures of your code
+* HTML, CSS & JavaScript
+* ![ButtonHover](./HTML.png)
+* ![RainbowText](./RainbowText.png)
+* ![ButtonHover](./ButtonHover.png)
+* ![ButtonHover](./JS.png)
+
 
 ---
 ### Credits
-Give credit to any `codepen` that inspired you, `medium` article that helped you, or `stackoverflow` that pointed you in the right direction.
+![Code Pen Reference](https://codepen.io/IAmAlexJohnson/pen/xrbKbB)
 
+![Rainbow Text](https://w3bits.com/rainbow-text/)
+
+![Button Hover Effect](https://www.w3schools.com/css/css3_buttons.asp)
+
+![Background Image](https://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg)
+
+![Example of changing RGB](https://stackoverflow.com/questions/21615441/using-javascript-to-change-rgb-value-of-background-onclick)
+
+James Sinkler
+
+Nick Schmitt
+
+Brian Krabec
 ---
 
 ### Future development
 What are the next steps for the project? How will you continue to evolve it?
+
+* In the future I would like to evolve it by adding an amount of guesses the player can make.
+* I would also add a section that has lives and decreases with every incorrect guess
+* Lastly, I would like to add 3 more boxes to the game to make the game a little more challenging.
