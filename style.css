@@ -38,7 +38,7 @@ body {
 #stripe {
     background: white;
     height: 30px;  
-    -webkit-text-stroke: .2px black;
+    -webkit-text-stroke: .3px black;
 }
 
 button {
