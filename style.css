@@ -49,7 +49,6 @@ button {
   font-family: 'Potta One', cursive;
   text-align: right;
   text-transform: uppercase;
-
 }
 
 button:hover {
@@ -60,5 +59,4 @@ button:hover {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
     color: transparent;
     font-family: 'Potta One', cursive;
-
 }

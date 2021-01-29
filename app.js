@@ -26,10 +26,10 @@ button.addEventListener('click', function(event) {
     squareTwo.style.backgroundColor = arrayOfColors[1];
     squareThree.style.backgroundColor = arrayOfColors[2];
     correctAnswer = solutionColor
+    window.location.reload();
 });
 
 squareOne.addEventListener('click', function(event) {
-    // let answer = Math.floor(Math.random() * 255)
     if(solutionColor == 0) {
         results.innerText = "You are right!"
     }else{
@@ -38,7 +38,6 @@ squareOne.addEventListener('click', function(event) {
 });
 
 squareTwo.addEventListener('click', function(event) {
-    // let answer = Math.floor(Math.random() * 255)
     if(solutionColor == 1) {
         results.innerText = "You are right!"
     }else{
@@ -47,7 +46,6 @@ squareTwo.addEventListener('click', function(event) {
 });
 
 squareThree.addEventListener('click', function(event) {
-    // let answer = Math.floor(Math.random() * 255)
     if(solutionColor == 2) {
         results.innerText = "You are right!"
     }else{
