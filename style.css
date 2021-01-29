@@ -3,8 +3,6 @@ body {
     background-color: #F0F8FF;
     font-family: 'Potta One', cursive;
     text-transform: uppercase;
-    /* -webkit-text-stroke-width: .1px;
-    -webkit-text-stroke-color: black; */
 }
 
 .rainbow-text {
@@ -17,7 +15,6 @@ body {
     line-height: 1.1;
     font-weight: normal;
     text-align: center;
-    
   }
 
 .squares {
