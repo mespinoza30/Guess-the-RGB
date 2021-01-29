@@ -26,7 +26,6 @@ button.addEventListener('click', function(event) {
     squareTwo.style.backgroundColor = arrayOfColors[1];
     squareThree.style.backgroundColor = arrayOfColors[2];
     correctAnswer = solutionColor
-    window.location.reload();
 });
 
 squareOne.addEventListener('click', function(event) {
