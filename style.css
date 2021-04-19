@@ -4,6 +4,7 @@ body {
     font-family: 'Potta One', cursive;
     text-transform: uppercase;
     -webkit-text-stroke: .4px black;
+    width: 100%;
 }
 
 

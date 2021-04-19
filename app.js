@@ -13,11 +13,8 @@ function randomNumber() {
 }
 
 button.addEventListener('click', function(event) {
-    let num1 = randomNumber()
-    let num2 = randomNumber()
-    let num3 = randomNumber()
 
-    const arrayOfColors=['rgb(' + num1 + ',' + num2 + ',' + num3 + ')', 'rgb(' + randomNumber() + ',' + randomNumber() + ',' + randomNumber() + ')', 'rgb(' + randomNumber() + ',' + randomNumber() + ',' + randomNumber() + ')']
+    const arrayOfColors=['rgb(' + randomNumber() + ',' + randomNumber() + ',' + randomNumber() + ')', 'rgb(' + randomNumber() + ',' + randomNumber() + ',' + randomNumber() + ')', 'rgb(' + randomNumber() + ',' + randomNumber() + ',' + randomNumber() + ')']
     console.log(arrayOfColors)
     let solutionColor = arrayOfColors[Math.floor(Math.random() * 3)]
     console.log(solutionColor)
